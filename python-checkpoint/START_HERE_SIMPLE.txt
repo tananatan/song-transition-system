@@ -1,0 +1,13 @@
+
+
+1. Waveform
+The line shows positive and negative audio samples. A narrower band suggests lower signal level; a wider band suggests more activity. Look for an ending that becomes less busy rather than a sudden cutoff. Low amplitude alone does not prove a good transition.
+
+2. RMS signal level
+The line summarizes the level every 50 ms. Look for a smooth reduction in the outgoing song and room for the incoming song to enter without a sudden level jump. Listen to check musical phrasing and avoid cutting off a vocal or melody. RMS is not perceptual loudness.
+
+3. Frequency content
+Time goes left to right, frequency goes bottom to top, and brighter colors mean stronger frequency content. Look for whether both songs have strong low-frequency material at the same time; overlapping bass can compete. This plot does not automatically identify instruments or choose a good mix.
+
+The windows are Something Elated 208-232 s (3:28-3:52) and Night Owl 0-24 s. These were manually chosen. All analysis uses the average of the two stereo channels, which can reduce sounds with opposite phase. Original stereo files are unchanged.
+
