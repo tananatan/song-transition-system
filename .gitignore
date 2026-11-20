@@ -7,9 +7,3 @@ __pycache__/
 /analysis/audio/
 /analysis/plots/
 /analysis/website_plots/
-/python-checkpoint/audio/
-/python-checkpoint/beginner_outputs/
-/python-checkpoint/outputs/
-/python-checkpoint/simple_*.png
-/matlab/data/
-/matlab/results/
