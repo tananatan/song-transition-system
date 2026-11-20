@@ -1,24 +1,17 @@
-# I make a spectrogram of each whole song to see when different frequencies show up.
-from pathlib import Path
-
-import numpy as np
-import soundfile as sf
+# Plot a spectrogram of each whole song to see when its frequencies show up.
 import matplotlib.pyplot as plt
+import numpy as np
 from scipy.signal import stft
 
-# I look for the audio beside this script and save the figures in plots.
-folder = Path(__file__).resolve().parent
-plot_folder = folder / "plots"
+from plot_excerpts import ANALYSIS_FOLDER, SONGS, load_song
+
+# Save the figures next to the other analysis plots.
+plot_folder = ANALYSIS_FOLDER / "plots"
 plot_folder.mkdir(exist_ok=True)
 
-files = ["audio/Something_Elated.mp3", "audio/Night_Owl.mp3"]
-names = ["Something Elated", "Night Owl"]
-outputs = ["Something_Elated_full_spectrogram.png", "Night_Owl_full_spectrogram.png"]
-
-for i in range(2):
-    # I load all the samples. fs tells me how many samples there are per second.
-    audio, fs = sf.read(folder / files[i], dtype="float32")
-    audio = np.mean(audio, axis=1)
+for filename, name, _ in SONGS:
+    # Load all the samples. Divide their count by the sample rate to get seconds.
+    audio, fs = load_song(filename, dtype="float32")
     duration = len(audio) / fs
 
     # The short-time Fourier transform (STFT) finds the frequencies in each short piece.
@@ -38,10 +31,12 @@ for i in range(2):
     plt.xlabel("Time in the song (seconds)")
     plt.ylabel("Frequency (Hz)")
     plt.colorbar(label="STFT magnitude (dB relative to 1)")
-    plt.title(names[i] + ": full-song spectrogram")
+    plt.title(f"{name}: full-song spectrogram")
+
+    # Save each song in a separate file.
     plt.tight_layout()
-    plot_path = plot_folder / outputs[i]
+    plot_path = plot_folder / f"{name.replace(' ', '_')}_full_spectrogram.png"
     plt.savefig(plot_path, dpi=150)
     plt.close()
     print(f"Saved {plot_path}")
-    print(names[i] + ": " + str(round(duration, 2)) + " seconds, " + str(fs) + " samples/second")
+    print(f"{name}: {duration:.2f} seconds, {fs} samples/second")
