@@ -1,0 +1,246 @@
+{
+  "song_a": "Sao Paulo",
+  "song_b": "We Found Love",
+  "total": 0.681,
+  "mode": "blend",
+  "scores": {
+    "tempo": 0.903,
+    "key": 0.382,
+    "spec": 0.999,
+    "energy": 0.338
+  },
+  "points": {
+    "tempo": 0.316,
+    "key": 0.115,
+    "spec": 0.2,
+    "energy": 0.051
+  },
+  "tempo": {
+    "bpm_a": 129.0,
+    "bpm_b": 128.0,
+    "gap_pct": 0.78,
+    "stretch_b_pct": 0.78
+  },
+  "key": {
+    "key_a": "C major",
+    "key_b": "F# major",
+    "camelot": [
+      "8B",
+      "2B"
+    ],
+    "confidence": [
+      0.6,
+      0.85
+    ],
+    "shared_notes": 2,
+    "pitch_shift_b_semitones": 2,
+    "correlation_by_shift": [
+      0.0,
+      0.0,
+      0.413,
+      0.0,
+      0.392,
+      0.0,
+      0.304,
+      0.371,
+      0.0,
+      0.215,
+      0.0,
+      0.378
+    ]
+  },
+  "spectrum": {
+    "bass_overlap_pct": 60.0,
+    "after_swap_pct": 0.14
+  },
+  "cut": {
+    "exit_a": "3:29",
+    "enter_b": "1:31",
+    "crossfade_s": 14.88,
+    "bass_swap_at_s": 7.44,
+    "beat_offset_ms": -20.0
+  },
+  "top_candidates": [
+    {
+      "exit_a": "3:29",
+      "enter_b": "1:31",
+      "score": 0.681,
+      "key": 0.382,
+      "energy": 0.338
+    },
+    {
+      "exit_a": "4:44",
+      "enter_b": "0:46",
+      "score": 0.663,
+      "key": 0.357,
+      "energy": 0.265
+    },
+    {
+      "exit_a": "2:45",
+      "enter_b": "0:31",
+      "score": 0.652,
+      "key": 0.249,
+      "energy": 0.412
+    },
+    {
+      "exit_a": "4:44",
+      "enter_b": "0:31",
+      "score": 0.651,
+      "key": 0.307,
+      "energy": 0.285
+    },
+    {
+      "exit_a": "2:45",
+      "enter_b": "1:16",
+      "score": 0.644,
+      "key": 0.176,
+      "energy": 0.505
+    },
+    {
+      "exit_a": "2:45",
+      "enter_b": "1:31",
+      "score": 0.644,
+      "key": 0.176,
+      "energy": 0.504
+    }
+  ],
+  "handoff_clips": [
+    "handoff_1_exit_3m29s_enter_1m31s.mp3",
+    "handoff_2_exit_4m44s_enter_0m46s.mp3",
+    "handoff_3_exit_2m45s_enter_0m31s.mp3"
+  ],
+  "sections_a": [
+    [
+      0.0,
+      26.96,
+      "Part A"
+    ],
+    [
+      26.96,
+      80.88,
+      "Part B"
+    ],
+    [
+      80.88,
+      98.85,
+      "Part C"
+    ],
+    [
+      98.85,
+      117.82,
+      "Part D"
+    ],
+    [
+      117.82,
+      132.79,
+      "Part E"
+    ],
+    [
+      132.79,
+      154.76,
+      "Part F"
+    ],
+    [
+      154.76,
+      169.74,
+      "Part E"
+    ],
+    [
+      169.74,
+      177.73,
+      "Part G"
+    ],
+    [
+      177.73,
+      192.7,
+      "Part F"
+    ],
+    [
+      192.7,
+      211.67,
+      "Part E"
+    ],
+    [
+      211.67,
+      225.65,
+      "Part H"
+    ],
+    [
+      225.65,
+      236.63,
+      "Part I"
+    ],
+    [
+      236.63,
+      248.62,
+      "Part J"
+    ],
+    [
+      248.62,
+      256.6,
+      "Part K"
+    ],
+    [
+      256.6,
+      265.59,
+      "Part I"
+    ],
+    [
+      265.59,
+      301.53,
+      "Part L"
+    ]
+  ],
+  "sections_b": [
+    [
+      0.0,
+      22.96,
+      "Part A"
+    ],
+    [
+      22.96,
+      53.92,
+      "Part B"
+    ],
+    [
+      53.92,
+      68.89,
+      "Part C"
+    ],
+    [
+      68.89,
+      112.83,
+      "Part D"
+    ],
+    [
+      112.83,
+      128.8,
+      "Part D"
+    ],
+    [
+      128.8,
+      150.77,
+      "Part E"
+    ],
+    [
+      150.77,
+      166.74,
+      "Part B"
+    ],
+    [
+      166.74,
+      180.72,
+      "Part C"
+    ],
+    [
+      180.72,
+      210.67,
+      "Part D"
+    ],
+    [
+      210.67,
+      216.67,
+      "Part F"
+    ]
+  ]
+}
