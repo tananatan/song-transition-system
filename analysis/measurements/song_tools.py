@@ -7,8 +7,8 @@ import numpy as np
 import soundfile as sf
 
 
-# Keep all paths relative to this folder, including when running from VS Code.
-ANALYSIS_FOLDER = Path(__file__).resolve().parent
+# Keep audio and results in the analysis folder, above the measurement scripts.
+ANALYSIS_FOLDER = Path(__file__).resolve().parent.parent
 SONGS = [
     ("audio/Something_Elated.mp3", "Something Elated", "outgoing"),
     ("audio/Night_Owl.mp3", "Night Owl", "incoming"),

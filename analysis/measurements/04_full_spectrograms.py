@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from scipy.signal import stft
 
-from plot_excerpts import ANALYSIS_FOLDER, SONGS, load_song
+from song_tools import ANALYSIS_FOLDER, SONGS, load_song
 
 # Save the figures next to the other analysis plots.
 plot_folder = ANALYSIS_FOLDER / "plots"

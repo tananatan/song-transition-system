@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from scipy.signal import spectrogram
 
-from plot_excerpts import ANALYSIS_FOLDER, SONGS, load_song, set_excerpt_axis, song_excerpt
+from song_tools import ANALYSIS_FOLDER, SONGS, load_song, set_excerpt_axis, song_excerpt
 
 
 # Use one shared y-axis so the two songs' bass levels can be compared.

@@ -4,7 +4,7 @@ import numpy as np
 from scipy.fft import rfft, rfftfreq
 from scipy.signal.windows import hann
 
-from plot_excerpts import ANALYSIS_FOLDER, SONGS, load_song, song_excerpt, website_requested
+from song_tools import ANALYSIS_FOLDER, SONGS, load_song, song_excerpt, website_requested
 
 # Choose where to save the FFT plots.
 website = website_requested()

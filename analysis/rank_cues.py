@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from scipy.signal import stft
 
-from plot_excerpts import (
+from measurements.song_tools import (
     ANALYSIS_FOLDER, BEAT_HOP, SONGS, find_beats, load_song, short_time_rms, song_excerpt,
 )
 

@@ -2,7 +2,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-from plot_excerpts import (
+from song_tools import (
     ANALYSIS_FOLDER, SONGS, load_song, set_excerpt_axis, short_time_rms,
     song_excerpt, website_requested,
 )

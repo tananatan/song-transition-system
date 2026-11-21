@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from scipy.signal import stft
 
-from plot_excerpts import (
+from song_tools import (
     ANALYSIS_FOLDER, SONGS, load_song, set_excerpt_axis, song_excerpt, website_requested,
 )
 
