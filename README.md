@@ -9,10 +9,7 @@ For EECS 351, we're looking for a place to start an overlap between **Something 
 
 ## Run it
 
-Use Python 3.14. Save these Broke For Free tracks in `analysis/audio/` with the filenames shown.
-
-- `Something_Elated.mp3` · [Download Something Elated](https://freemusicarchive.org/music/Broke_For_Free/Something_EP/Broke_For_Free_-_Something_EP_-_05_Something_Elated/) · [CC BY 3.0 US](https://creativecommons.org/licenses/by/3.0/us/)
-- `Night_Owl.mp3` · [Download Night Owl](https://freemusicarchive.org/music/Broke_For_Free/Directionless_EP/Broke_For_Free_-_Directionless_EP_-_01_Night_Owl/) · [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
+Use Python 3.14. Cloning the repository or downloading its ZIP includes both MP3s in `analysis/audio/`.
 
 ```sh
 python -m pip install -r requirements.txt
@@ -25,3 +22,8 @@ Run the commands from the repository folder. You can also run each script on its
 Open `top_cues.csv` for the top three pairs and `cue_times.png` to see where the highest-scoring pair lands in the songs.
 
 For the 20-second website plots, add `--website` when running script `01`, `02`, `03`, or `05`. Script `06` saves its bass plot there by default. These files go in `analysis/website_plots/`.
+
+## Audio credits
+
+- [Something Elated](analysis/audio/Something_Elated.mp3) by Broke For Free · [Free Music Archive](https://freemusicarchive.org/music/Broke_For_Free/Something_EP/Broke_For_Free_-_Something_EP_-_05_Something_Elated) · [CC BY 3.0 US](https://creativecommons.org/licenses/by/3.0/us/)
+- [Night Owl](analysis/audio/Night_Owl.mp3) by Broke For Free · [Free Music Archive](https://freemusicarchive.org/music/Broke_For_Free/Directionless_EP/Broke_For_Free_-_Directionless_EP_-_01_Night_Owl) · [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)

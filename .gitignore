@@ -4,6 +4,8 @@ __pycache__/
 .vs/
 .vscode/
 
-/analysis/audio/
+/analysis/audio/*
+!/analysis/audio/Night_Owl.mp3
+!/analysis/audio/Something_Elated.mp3
 /analysis/plots/
 /analysis/website_plots/
